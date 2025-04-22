@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Script
 
 let slideIndex = 1;
@@ -29,3 +30,6 @@ function showSlides(n){
     slides[slideIndex-1].style.display = "block";
     quadrates[slideIndex-1].className += " active";
 }
+=======
+// Script
+>>>>>>> 8442392b46412de8f5508fa578b8c73bbd382df6
