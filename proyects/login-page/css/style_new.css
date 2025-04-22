@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 40rem;
+    background-color:#f8f2e8; 
+    font-size: 1rem; 
+    flex-direction: column;
+    border-radius: 0.6rem;
+    margin-top: 25rem;
+}
+
+
+/* Título */
+h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+}
+
+/* Campos de entrada */
+input {
+    width: 30rem;
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    border: 0.06rem;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    border-style: solid;
+}
+
+/* Botón */
+button {
+    width: 20rem;
+    padding: 0.6rem;
+    background-color: #2C3E50; 
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.625rem;
+}
+
+button:hover {
+    background-color: #1A252F; 
+}
+

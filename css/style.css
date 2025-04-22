@@ -1,0 +1,297 @@
+/* style */
+
+:root {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #183030;
+}
+
+.body h1 {
+    color: #cca950;
+}
+
+.body h2  {
+    color: #cca950;
+}
+
+.body h3 {
+    color: #cca950;
+}
+
+.body a {
+    color: #cca950;
+}
+
+.body label {
+    color: #cca950;
+}
+
+.body input{
+    background-color: transparent;
+    border-color: #cca950;
+    border-radius: 0.33rem;
+    color: #cca950;
+    width: 40rem;
+
+}
+
+.body textarea{
+    background-color: transparent;
+    border-color: #cca950;
+    border-radius: 0.33rem;
+    color: #cca950;
+    width: 40rem;
+
+}
+
+.body button{
+    display:flex;
+    border-radius: 0.33rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+    height: 2rem;
+    color: #cca950;
+    background-color: transparent;
+    border-color: #cca950;
+    margin-top: 2rem;
+    
+}
+
+.header{
+    background-color:whitesmoke;
+    border-color: #cca950;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-style: inset;
+    
+}
+
+.header_section_nav a{
+    text-decoration: none;
+    color: #cca950;
+    border: #cca950;
+    border-style: groove;
+    
+    
+}
+
+
+.header_section_dianoche{
+    height: 5rem;
+    width: 5rem;
+    background-color:transparent;
+    margin-left: 3rem;
+    
+    
+}
+
+.header_section{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+
+.header_section_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header_section_nav ul{
+    list-style: none;
+}
+
+.header_section_nav ul li{
+    display: inline-block;
+}
+
+.header_section_nav ul li a{
+    display: block;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.header_section_nav ul li a:hover{
+    background-color: #183030;
+    
+}
+
+
+/* Principal Index */
+
+.main_index_foto{
+
+    color: #cca950;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 15rem;
+
+}
+
+.main_index_foto p{
+
+    margin-left: 10rem;
+    height: 10rem;
+}
+
+.main_index_foto img{
+    border-color: #cca950;
+    border-radius: 0.33rem;
+    width: 50rem;
+    border-top: 3rem;
+
+}
+
+
+.main_index_h2{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom: 3rem;
+}
+
+
+
+/* Contact Me */
+
+.main_contact h2{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.main_contact h3{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.main_contact_section_logos img{
+    height: 15rem;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.main_contact_section_logos{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+
+
+
+}
+
+.article_contact{
+    display: flex;
+
+}
+
+
+/*Portfolio */
+
+
+.fotos_carrusel img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #cca950;
+    border-style: groove;
+    justify-items: center;
+
+}
+
+.anterior{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.siguiente{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* About Me */
+
+.main_section_aboutme{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+.main_section_aboutme ul {
+    list-style: none;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    height: 30rem;
+    width: 20rem;
+    margin-top: 15rem;
+}
+
+.main_section_aboutme_texto{
+    color: #cca950;
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+
+.article_aboutme{
+    display: flex;
+
+
+}
+
+.section_aboutme{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+
+}
